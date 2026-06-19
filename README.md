@@ -114,22 +114,17 @@ Raw Data → Customer × Product Pivot → Transpose → Cosine Similarity Matri
 
 **1. Clone & install dependencies**
 ```bash
-git clone https://github.com/your-username/shopper-spectrum.git
-cd shopper-spectrum
+https://github.com/parth-kachhadiya/Project-4-Shopper-Spectrum.git
+cd Project-4-Shopper-Spectrum.git
 pip install -r requirements.txt
 ```
 
-**2. Add dataset**
-```
-Place online_retail.csv inside data/ folder
-```
-
-**3. Run notebook first** (generates model .pkl files)
+**2. Run notebook first** (generates all model .pkl files)
 ```bash
-jupyter notebook notebooks/shopper_spectrum.ipynb
+jupyter notebook notebooks/model-design.ipynb
 ```
 
-**4. Launch Streamlit**
+**3. Launch Streamlit**
 ```bash
 streamlit run app.py
 ```
@@ -149,6 +144,7 @@ plotly
 joblib
 streamlit
 jupyter
+ipykernel
 ```
 
 Install all:
